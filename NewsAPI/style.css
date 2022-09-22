@@ -1,0 +1,95 @@
+@font-face {
+    font-family:RedHatDisplay-Medium ;
+    src: url(assests/fonts/Red_Hat_Display/static/RedHatDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family:RedHatDisplay-Regular ;
+    src: url(assests/fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family:RedHatDisplay-Light ;
+    src: url(assests/fonts/Red_Hat_Display/static/RedHatDisplay-Light.ttf);
+}
+ol, ul{
+    padding: unset;
+}
+li{
+    list-style-type: none;
+}
+body{
+    font-family:RedHatDisplay-Medium ;
+}
+.navheader ul li,.social ul li {
+    display: inline-block;
+}
+.navheader ul li a, .social ul li a,.dayDate span {
+    color: #5c667d;
+    font-size: 14px;
+    padding: 0;
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.navheader a:hover, .social a:hover{
+    color: #30c96a;
+    transition: .3s;
+}
+.dayDate {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #e4eaf7;
+}
+section.top_header {
+    padding-top: 10px;
+}
+.social {
+    text-align: right;
+}
+.social img {
+    width: 15px;
+    margin-right: 5px;
+}
+.navheader.headerBtm .logo img {
+    margin-right: 20px;
+}
+.navheader.headerBtm ul li a i{
+    margin-left: 5px;
+}
+span#icon img {
+    width: 30px;
+}
+ul#weather {
+    display: flex;
+    align-items: center;
+}
+
+.weather_address span {
+    display: block;
+    line-height: 14px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+span#timer,.btn {
+    background-color: #30c96a;
+    display: inline-block;
+    color: #ffffff;
+    padding: 5px 18px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-right: 15px;
+    min-width: 135px;
+    margin-left: 20px;
+    text-align: center;
+    border: none;
+
+}
+.weather {
+    display: flex;
+    justify-content: end;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
